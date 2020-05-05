@@ -17,7 +17,7 @@ import java.util.Optional;
 @RequestMapping("/airport")
 public class AirportController {
     @Autowired
-    private AirportDao airportDao;
+    private AirportService airportDao;
 
         @GetMapping("/all")
         public List<airport> viewAllAirport(){
